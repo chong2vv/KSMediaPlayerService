@@ -1,0 +1,18 @@
+#pod 源
+source 'https://github.com/CocoaPods/Specs.git'
+#私有pod
+source 'http://gitlab.meishubao.com/ArtPods/ArtPodRepo.git'
+#aliyun
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+platform :ios, '9.0'
+
+target 'KSMediaPlayerService_Example' do
+  pod 'KSMediaPlayerService', :path => '../'
+
+  target 'KSMediaPlayerService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
