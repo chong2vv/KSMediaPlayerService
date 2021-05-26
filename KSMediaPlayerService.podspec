@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSMediaPlayerService'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of KSMediaPlayerService.'
 
 # This description is used to generate tags and improve search results.
@@ -29,22 +29,22 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.resources = 'KSMediaPlayerService/Assets/*.bundle'
+#  s.resources = 'KSMediaPlayerService/Assets/*.bundle'
 
-  s.source_files = 'KSMediaPlayerService/Classes/**/*'
+  s.source_files = 'KSMediaPlayerService/**/*.{h}'
   s.vendored_frameworks = 'KSMediaPlayerService/Vendors/*.framework'
   # s.resource_bundles = {
   #   'KSMediaPlayerService' => ['KSMediaPlayerService/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
+   s.public_header_files = 'KSMediaPlayerService/**/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   
-  s.dependency  'ArtFoundation/NSCategories', '>=0.0.9.3'
-  s.dependency  'ArtFoundation/ReactiveCocoa', '>=0.0.9.3'
-
-   s.dependency 'ArtCommon/ArtMediaPlayer', '>=1.0.13.18'
-   s.dependency 'Masonry' ,'>=1.0.2'
-   s.dependency 'ArtFoundation/UIUtils', '>=0.0.9.3'
+#  s.dependency  'ArtFoundation/NSCategories', '>=0.0.9.3'
+#  s.dependency  'ArtFoundation/ReactiveCocoa', '>=0.0.9.3'
+#
+#   s.dependency 'ArtCommon/ArtMediaPlayer', '>=1.0.13.18'
+#   s.dependency 'Masonry' ,'>=1.0.2'
+#   s.dependency 'ArtFoundation/UIUtils', '>=0.0.9.3'
 
 end

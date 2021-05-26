@@ -1,46 +1,15 @@
 PODS:
-  - ArtCommon/ArtMediaPlayer (1.1.1)
-  - ArtFoundation/NSCategories (0.0.9.3)
-  - ArtFoundation/ReactiveCocoa (0.0.9.3):
-    - ReactiveCocoa (= 2.5.2)
-  - ArtFoundation/UIUtils (0.0.9.3):
-    - Masonry (~> 1.0.2)
-  - KSMediaPlayerService (1.0.0):
-    - ArtCommon/ArtMediaPlayer (>= 1.0.13.18)
-    - ArtFoundation/NSCategories (>= 0.0.9.3)
-    - ArtFoundation/ReactiveCocoa (>= 0.0.9.3)
-    - ArtFoundation/UIUtils (>= 0.0.9.3)
-    - Masonry (>= 1.0.2)
-  - Masonry (1.0.2)
-  - ReactiveCocoa (2.5.2):
-    - ReactiveCocoa/UI (= 2.5.2)
-  - ReactiveCocoa/Core (2.5.2):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5.2)
-  - ReactiveCocoa/UI (2.5.2):
-    - ReactiveCocoa/Core
+  - KSMediaPlayerService (1.0.1)
 
 DEPENDENCIES:
   - KSMediaPlayerService (from `../`)
-
-SPEC REPOS:
-  http://gitlab.meishubao.com/ArtPods/ArtPodRepo.git:
-    - ArtCommon
-    - ArtFoundation
-    - ReactiveCocoa
-  https://github.com/CocoaPods/Specs.git:
-    - Masonry
 
 EXTERNAL SOURCES:
   KSMediaPlayerService:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ArtCommon: b2b7a956ca2c8252175cfa2e665b91a42d142143
-  ArtFoundation: 64fcf3cd9f57e2f3c772fa41ea1953c632c69198
-  KSMediaPlayerService: 7e8948181cffe29ecb88cd414da25d30509fa328
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  ReactiveCocoa: 469de6527293072e262bb7b8cedb364a97f4128f
+  KSMediaPlayerService: 13c7c875239b0d27b788fec45c980b1b9403c7d6
 
 PODFILE CHECKSUM: 285fc715f28c0df60563d17579cdf70f2ea498e1
 
