@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ArtCommon: b2b7a956ca2c8252175cfa2e665b91a42d142143
   ArtFoundation: 64fcf3cd9f57e2f3c772fa41ea1953c632c69198
-  KSMediaPlayerService: c77365dbf3c52cf73c92bef5bab670df2e57e185
+  KSMediaPlayerService: 7e8948181cffe29ecb88cd414da25d30509fa328
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveCocoa: 469de6527293072e262bb7b8cedb364a97f4128f
 
