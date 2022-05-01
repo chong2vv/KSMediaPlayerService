@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KSYMoviePlayerController.h"
+#import "KSYMediaPlayer/KSYMoviePlayerController.h"
 
 //! Project version number for KSYMediaPlayer.
 FOUNDATION_EXPORT double KSYMediaPlayerVersionNumber;
