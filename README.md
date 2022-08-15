@@ -22,7 +22,7 @@ pod 'KSMediaPlayerService'
 
 ## Author
 
-xuwenxin, xuwenxin@meishubao.com
+wangyuandong, chong2vv@gamil.com
 
 ## License
 
