@@ -21,30 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.meishubao.com/ArtPods/KSMediaPlayerService.git'
+  s.homepage         = 'https://github.com/chong2vv/KSMediaPlayerService.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xuwenxin' => 'xuwenxin@meishubao.com' }
-  s.source           = { :git => 'https://gitlab.meishubao.com/ArtPods/KSMediaPlayerService.git', :tag => s.version.to_s }
+  s.author           = { '王远东' => 'wangyuandong@gmail.com' }
+  s.source           = { :git => 'https://github.com/chong2vv/KSMediaPlayerService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-#  s.resources = 'KSMediaPlayerService/Assets/*.bundle'
 
   s.source_files = 'KSMediaPlayerService/**/*.{h}'
   s.vendored_frameworks = 'KSMediaPlayerService/Vendors/*.framework'
-  # s.resource_bundles = {
-  #   'KSMediaPlayerService' => ['KSMediaPlayerService/Assets/*.png']
-  # }
-  
-   s.public_header_files = 'KSMediaPlayerService/**/*.{h}'
-  # s.frameworks = 'UIKit', 'MapKit'
-  
-#  s.dependency  'ArtFoundation/NSCategories', '>=0.0.9.3'
-#  s.dependency  'ArtFoundation/ReactiveCocoa', '>=0.0.9.3'
-#
-#   s.dependency 'ArtCommon/ArtMediaPlayer', '>=1.0.13.18'
-#   s.dependency 'Masonry' ,'>=1.0.2'
-#   s.dependency 'ArtFoundation/UIUtils', '>=0.0.9.3'
+  s.public_header_files = 'KSMediaPlayerService/**/*.{h}'
 
 end
